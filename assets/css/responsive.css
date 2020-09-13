@@ -1,0 +1,82 @@
+@media (max-width: 576px) {
+    h1 {
+        font-family: 'Lato';
+    font-size: 2.6rem;
+    line-height: 3rem;
+    font-weight: 10;
+    }
+
+    .navbar-dark .navbar-nav .nav-link.active {
+        border-bottom: none;
+        box-shadow: none;
+        color: #ff1010;
+    }
+
+    /* Section Titles */
+    .section-title::after {
+        width: 15%;
+    }  
+
+    .section-title:hover::after {
+        width: 20%;
+    }
+
+    /* HERo */
+
+    #hero{
+        padding-top: 6rem;
+    }
+
+    .temp {
+        padding-top: 5px;
+    }
+
+    .htext{
+        margin-top: 3rem;
+    }
+
+    #particles-js{
+        height: 60vh;
+    }
+
+    /* About */
+    /* #about {
+        padding-top:20rem;
+    } */
+
+    .info {
+        margin-left: 3%;
+        margin-right: 3%;
+        text-align: center; 
+    }
+    
+    /* Our Services */
+    .service-title::after {
+        width: 15%;
+    }
+
+    .service-title:hover::after {
+        width: 20%;
+    }
+
+
+    /* Contact Us */
+    .btn-contact {
+        width: 100%;
+    }
+
+    #contact {
+        padding-bottom: 4rem;
+    }
+    .contactdetails {
+        margin-top: 24px;
+    } 
+
+
+    #contact h3{
+        text-align: center;
+    }
+
+
+    
+}
