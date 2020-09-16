@@ -1,1 +1,1 @@
-# SS_LandingPage
+# Home page for stochastic systems
